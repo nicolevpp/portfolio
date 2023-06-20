@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Nicole Perez</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,900;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header" >
+        <a class="main-logo" href="#" >
+          <strong>PORTFOLIO | NICOLE PEREZ</strong>
+        </a>
+        <nav id="nav" class="main-nav" >
+          <div class="nav-links" >
+            <a class="link-item" href="#" >Home</a>
+            <a class="link-item" href="#about" >About</a>
+            <a class="link-item" href="#projects" >Projects</a>
+            <a class="link-item" href="#contact" >Contact</a>
+          </div>
+        </nav>
+        <button id="button-menu" class="button-menu" >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+    <section class="header">
+        <h2 class="title-header">¡Hola! Soy Nicole Perez</h2>
+        <span class="info-header">Full Stack Developer con el propósito de ayudarte a impulsar tu proyecto web al éxito.</span>
+        <a href="#projects" class="btn-purple" >Proyectos</a>
+    </section>
+    <section id="about" class="about">
+        <h2 class="h2-style">SOBRE MÍ</h2>
+        <p>Aquí encontrarás más información sobre mí, lo que realizo y mis habilidades en términos de programación y tech.</p>
+        <div class="about-content">
+            <div class="about-content-main">
+                <h3 class="h3-style">Conóceme</h3>
+                <p>Soy un Full Stack Developer que se dedica a construir sitios y aplicaciones web especialmente diseñadas para ayudarte a impulsar tu negocio o proyecto al éxito digital. <br><br>
+                Interesada en oportunidades laborales en las que pueda contribuir, aprender y crecer. Si tiene una buena oportunidad que se ajuste a mis habilidades y experiencia, no dude en ponerse en contacto conmigo.
+                </p>
+                <a class="btn-purple">Contacto</a>
+            </div>
+            <div class="about-content-skills">
+                <h3  class="h3-style">Mis habilidades</h3>
+                    <ul class="skill-list">
+                        <li class="skill-list-item">HTML</li>
+                        <li class="skill-list-item">CSS</li>
+                        <li class="skill-list-item">JavaScript</li>
+                        <li class="skill-list-item">GIT</li>
+                        <li class="skill-list-item">GitHub</li>
+                        <li class="skill-list-item">Responsive Design</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="h2-style">Proyectos</h2>
+        <p>Aquí encontrarás algunos de mis proyectos más recientes.</p>
+            <div class="projects-row">
+                <img class="project-img" src="./cotizador.svg" alt="cotizador">
+                <div class="project-row-info">
+                    <h3 class="h3-style">Cotizador Crypto</h3>
+                    <p>Proyecto que te permite conocer las variaciones diferentes criptomonedas, además de brindar  el precio y demás datos de interés</p>
+                    <a class="btn-purple">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="projects-row">
+                <img class="project-img" src="./tareas.svg" alt="tareas">
+                <div class="project-row-info">
+                    <h3 class="h3-style">TO-DO App</h3>
+                    <p>Organiza todas tus tareas pendientes en un solo lugar, incluye un contador total de los ítems además de las realizadas y por realizar.</p>
+                    <a class="btn-purple">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="projects-row">
+                <img class="project-img" src="./contactos.svg" alt="contactos">
+                <div class="project-row-info">
+                    <h3 class="h3-style">Libreta de contactos</h3>
+                    <p>Útil libreta de contactos que te permite organizar los números de tus conocidos, además de editar o eliminar los ítems necesarios.</p>
+                    <a class="btn-purple">Ver proyecto</a>
+                </div>
+            </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="h2-style">¡Hablemos!</h2>
+        <p>No dude en ponerse en contacto conmigo rellenando el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+        <div id="form-container">
+            <form id="form">
+                <div class="form-container">
+    
+                    <div class="input-container">
+                        <input type="text" class="form-input" id="input-name" placeholder="Nombre y Apellido" autocomplete="off">
+    
+                        <div class="x-icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="x-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+    
+                        <div class="check-icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="check-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                    </div>
+    
+                    <p class="help-text">
+                        Primer nombre y primer apellido. <br>
+                        Cada uno empieza por mayúsculas.
+                    </p>
+    
+                </div>
+    
+                <div class="form-container">
+    
+                    <div class="input-container">
+                        <input type="text" class="form-input" id="input-email" placeholder="Correo" autocomplete="off">
+    
+                        <div class="x-icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="x-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+    
+                        <div class="check-icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="check-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                    </div>
+    
+                    <p class="help-text">
+                        Tiene que ser un correo valido.
+                    </p>
+    
+                </div>
+
+                <div class="form-container">
+    
+                    <div class="input-container">
+                        <input type="text" class="form-input" id="input-message" placeholder="Ingresa tu mensaje" autocomplete="off">
+    
+                    </div>
+    
+                    <p class="help-text">
+                        Ingrese un mensaje.
+                    </p>
+    
+                </div>
+    
+                <button id="form-btn" disabled>Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
