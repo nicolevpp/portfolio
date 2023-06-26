@@ -420,6 +420,26 @@ p {
 .main-logo {
   font-size: 20px;
 }
+
+#footer {
+  height: 30%;
+  background-color: #8b5cf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+
+.icon-footer {
+  width: 3rem;
+  fill: #ede9fe;
+}
   
   @media screen and (min-width:768px) {
     .button-menu{
