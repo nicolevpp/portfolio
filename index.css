@@ -49,7 +49,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: -webkit-fill-available;
     width: 100%;
     margin-left: -100%;
     transition: all .2s linear;
@@ -59,6 +59,7 @@ p {
   
   .main-nav.show{
     margin-left: 0;
+    height: -webkit-fill-available;
   }
   
   .nav-links{
@@ -142,6 +143,15 @@ p {
     justify-content: center;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
     background-position: center;
+    height: 50rem;
+  }
+
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
   }
 
   .btn-purple {
@@ -445,17 +455,19 @@ p {
     .button-menu{
       display: none;
     }
-  
+
+    .header {
+      height: 30rem;
+    }
     .main-logo{
-      flex-basis: 30%;
+      flex-basis: 50%;
     }
   
     .main-nav{
       position: static;
       margin-left: 0;
       flex-basis: 70%;
-      height: 100%;
-    }
+      }
   
     .nav-links{
       width: 100%;
@@ -478,6 +490,11 @@ p {
     .header{
         height: 35rem;
     }
+
+    .main-header {
+      padding: 0 4rem;
+    }
+    
     .about-content{
         flex-direction: row;
         justify-content: space-evenly;
@@ -511,6 +528,6 @@ p {
     }
 
     #form-container {
-      padding: 2rem 10rem;
+      padding: 3rem 10rem;
     }
 }
