@@ -14,6 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     height: 100vh;
+    width: fit-content;
 }
 
 p {
@@ -369,7 +370,10 @@ p {
     flex-direction: column;
     align-items: center;
 }
-  
+
+.main-logo {
+  font-size: 20px;
+}
   
   @media screen and (min-width:768px) {
     .button-menu{
